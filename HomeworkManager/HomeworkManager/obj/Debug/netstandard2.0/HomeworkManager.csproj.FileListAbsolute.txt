@@ -1,0 +1,13 @@
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\HomeworkManager.csprojAssemblyReference.cache
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\HomeworkManager.csproj.CoreCompileInputs.cache
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\HomeworkManager.AssemblyInfoInputs.cache
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\HomeworkManager.AssemblyInfo.cs
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\HomeworkManager.dll
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\HomeworkManager.pdb
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\bin\Debug\netstandard2.0\HomeworkManager.deps.json
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\bin\Debug\netstandard2.0\HomeworkManager.dll
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\bin\Debug\netstandard2.0\HomeworkManager.pdb
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\XamlC.stamp

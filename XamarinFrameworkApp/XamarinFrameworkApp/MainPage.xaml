@@ -4,14 +4,20 @@
              xmlns:local="clr-namespace:XamarinFrameworkApp"
              x:Class="XamarinFrameworkApp.MainPage">
 
-    <StackLayout>
+    <StackLayout VerticalOptions="Center">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" /> <!--this is the h1, et al tag-->
-        <Entry Placeholder="Enter Name"/> <!--this is a text input box-->
+        <!--"Label" is the h1, et al tag-->
+        <Label x:Name="greetingLabel" 
+               Text="Welcome to Xamarin.Forms!" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+        <!--Entry is a text input box-->
+        <Entry x:Name="nameEntry" 
+               Placeholder="Enter Name"/>
+        <!--what it says on the tin-->
         <Button Text="Say hello!"
-                Clicked="Button_Clicked"/> <!--what it says on the tin-->
+                Clicked="Button_Clicked"/>
+        <!--Names are only for when something needs to be returned, like adding a variable to refernced the returned information-->
     </StackLayout>
 
 </ContentPage>

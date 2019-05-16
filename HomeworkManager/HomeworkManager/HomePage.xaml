@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:local="clr-namespace:HomeworkManager"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="HomeworkManager.HomePage">
+  <!--Pages can be added as references or inline-->
+  <local:HamePage Title="Tab 1" />
+  <local:BotPage Title="Tab 2" />
+   <local:ProfilePage Title="Tab 3" />
+</TabbedPage>

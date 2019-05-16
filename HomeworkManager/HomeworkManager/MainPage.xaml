@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HomeworkManager"
+             x:Class="HomeworkManager.MainPage">
+
+    <StackLayout VerticalOptions="Center"
+                 Margin="20">
+        <Label Text="User Name:" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Entry x:Name="usernameEntry"
+               Placeholder="joe@schmo.com"
+               Keyboard="Email"/>
+        <Label Text="Password:"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <Entry x:Name="passwordEntry"
+               Placeholder="********"
+               IsPassword="True"/>
+        <Button x:Name="LoginButton"
+                Text="Login"
+                Clicked="LoginButton_Clicked"/>
+        <Label x:Name="welcomeLabel" 
+               Text=""
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Center"
+               Margin="0, 40"
+               FontSize="Large"/>
+    </StackLayout>
+
+</ContentPage>
