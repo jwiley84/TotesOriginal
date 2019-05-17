@@ -3,6 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HomeworkManager.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Color x:Key="TealColor">#7DE0EF</Color>
+            <Color x:Key="CornflowerBlueColor">#B0C4DE</Color>
+            <Color x:Key="SlateGreyColor">#708090</Color>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

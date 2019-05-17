@@ -5,11 +5,22 @@
     <Application.Resources>
         <ResourceDictionary>
             <Color x:Key="PinkColor">#FAAFAA</Color>
-            <Style TargetType="Button">
+            <Color x:Key="TealColor">#7DE0EF</Color>
+            <Color x:Key="CornflowerBlueColor">#B0C4DE</Color>
+            <Color x:Key="SlateGreyColor">#708090</Color>
+            <Color x:Key="WhiteColor">#FFFFFF</Color>
+            <Style x:Key="WeirdInput" TargetType="Entry">
                 <Setter Property="BackgroundColor" Value="{StaticResource PinkColor}"/>
-                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="TextColor" Value="{StaticResource WhiteColor}" />
             </Style>
-            
+            <Style x:Key="NormalInput" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="{StaticResource WhiteColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource SlateGreyColor}" />
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource PinkColor}" />
+                <Setter Property="TextColor" Value="{StaticResource WhiteColor}"/>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

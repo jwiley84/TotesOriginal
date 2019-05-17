@@ -2,33 +2,41 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:TotesOddityTravel"
-             x:Class="TotesOddityTravel.MainPage">
+             x:Class="TotesOddityTravel.MainPage"
+             BackgroundColor="{StaticResource SlateGreyColor}">
 
     <StackLayout VerticalOptions="Center"
                  Margin="20">
-        <!-- Place new controls here -->
-
+        <Label Text="Welcome to Homework Manager"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"
+               FontSize="22"
+               Margin="0,0,0,40"
+               TextDecorations="Underline"/>
         <Label Text="User Name:" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
         <Entry x:Name="usernameEntry"
                Placeholder="joe@schmo.com"
-               Keyboard="Email"/>
+               Keyboard="Email"
+               Style="{StaticResource NormalInput}"/>
         <Label Text="Password:"
                HorizontalOptions="Center"
                VerticalOptions="Center"/>
         <Entry x:Name="passwordEntry"
                Placeholder="********"
-               IsPassword="True"/>
+               IsPassword="True"
+               Style="{StaticResource NormalInput}"/>
         <Button x:Name="LoginButton"
                 Text="Login"
-                Clicked="LoginButton_Clicked"/>
+                Clicked="LoginButton_Clicked"
+                Margin="0, 40"/>
         <Label x:Name="welcomeLabel" 
                Text=""
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="Center"
                Margin="0, 40"
-               FontSize="Large"/>
+               FontSize="Medium"/>
     </StackLayout>
 
 </ContentPage>

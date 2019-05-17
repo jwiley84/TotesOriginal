@@ -4,7 +4,7 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="HomeworkManager.HomePage">
   <!--Pages can be added as references or inline-->
-  <local:HamePage Title="Tab 1" />
-  <local:BotPage Title="Tab 2" />
-   <local:ProfilePage Title="Tab 3" />
+  <local:HamePage Title="Hame" />
+  <local:BotPage Title="Bot" />
+  <local:ProfilePage Title="Profile" />
 </TabbedPage>
