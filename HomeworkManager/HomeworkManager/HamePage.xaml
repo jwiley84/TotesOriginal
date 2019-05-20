@@ -4,9 +4,20 @@
              x:Class="HomeworkManager.HamePage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Welcome to Homework Manager!"
                 HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="projectsButton"
+                    Text="Projects"
+                    Style="{StaticResource HomePageButton}"
+                    Clicked="ProjectsButton_Clicked"/>
+            <Button x:Name="timerButton"
+                    Text="Productivity Timer"
+                    Style="{StaticResource HomePageButton}"
+                    Clicked="TimerButton_Clicked"/>
+            <Button x:Name="assignmentsButton"
+                    Text="Assignments"
+                    Style="{StaticResource HomePageButton}"
+                    Clicked="AssignmentsButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

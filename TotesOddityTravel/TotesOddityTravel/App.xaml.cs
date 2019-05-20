@@ -7,6 +7,8 @@ namespace TotesOddityTravel
 {
     public partial class App : Application
     {
+        public static string DatabaseLocation = string.Empty;
+
         public App()
         {
             InitializeComponent();
@@ -14,6 +16,14 @@ namespace TotesOddityTravel
             MainPage = new NavigationPage(new MainPage()); //MainPage is now the root of the navigation
         }
 
+        public App(string databaseLocation)
+        {
+            InitializeComponent();
+
+            MainPage = new NavigationPage(new MainPage());
+
+            DatabaseLocation = databaseLocation;
+        }
         protected override void OnStart()
         {
             // Handle when your app starts

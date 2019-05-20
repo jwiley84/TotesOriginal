@@ -16,5 +16,20 @@ namespace HomeworkManager
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void ProjectsButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ProjectPage());
+        }
+
+        private void TimerButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AssignmentsButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

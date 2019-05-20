@@ -14,7 +14,8 @@
                Placeholder="joe@schmo.com"
                Keyboard="Email"
                BackgroundColor="White"
-               TextColor="Black"/>
+               TextColor="Black"
+               Text="JJ"/>
         <Label Text="Password:"
                HorizontalOptions="Center"
                VerticalOptions="Center"/>
@@ -22,7 +23,8 @@
                Placeholder="********"
                IsPassword="True"
                BackgroundColor="White"
-               TextColor="Black"/>
+               TextColor="Black"
+               Text="123"/>
         <Button x:Name="LoginButton"
                 Text="Login"
                 Clicked="LoginButton_Clicked"

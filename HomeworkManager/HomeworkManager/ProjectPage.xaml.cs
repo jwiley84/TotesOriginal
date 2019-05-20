@@ -16,5 +16,10 @@ namespace HomeworkManager
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void AddProjectItem_Clicked(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

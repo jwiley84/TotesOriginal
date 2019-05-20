@@ -4,9 +4,7 @@
              x:Class="HomeworkManager.AssignmentPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="assignmentEntry"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

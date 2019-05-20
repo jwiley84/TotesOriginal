@@ -7,6 +7,10 @@
             <Color x:Key="TealColor">#7DE0EF</Color>
             <Color x:Key="CornflowerBlueColor">#B0C4DE</Color>
             <Color x:Key="SlateGreyColor">#708090</Color>
+            <Style x:Key="HomePageButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource SlateGreyColor}"/>
+                <Setter Property="Margin" Value="20, 10"/>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
