@@ -37,6 +37,7 @@ namespace HomeworkManager
             if (rows > 0)
             {
                 DisplayAlert("Success!", "Assignment successfully inserted", "ok");
+                Navigation.PushAsync(new ProjectPage());
             }
             else
             {

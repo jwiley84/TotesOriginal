@@ -17,3 +17,4 @@ C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManag
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\HomeworkManager.dll
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\HomeworkManager.pdb
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager\obj\Debug\netstandard2.0\HomeworkManager.csprojAssemblyReference.cache
