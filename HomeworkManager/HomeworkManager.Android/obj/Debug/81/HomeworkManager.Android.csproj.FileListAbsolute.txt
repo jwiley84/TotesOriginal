@@ -55,6 +55,7 @@ C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManag
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\bin\Debug\System.ServiceModel.Internals.pdb
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\bin\Debug\System.Web.Services.pdb
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\bin\Debug\Mono.Security.pdb
+C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\bin\Debug\HomeworkManager.dll.mdb
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\obj\Debug\81\linksrc\HomeworkManager.Android.pdb
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\obj\Debug\81\linksrc\Mono.Android.pdb
@@ -77,7 +78,6 @@ C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManag
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\bin\Debug\HomeworkManager.dll.mdb
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\obj\Debug\81\linksrc\HomeworkManager.dll.mdb
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\obj\Debug\81\android\assets\HomeworkManager.dll.mdb
 C:\Users\v-jewail\source\repos\XamarinFrameworkApp\HomeworkManager\HomeworkManager.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb

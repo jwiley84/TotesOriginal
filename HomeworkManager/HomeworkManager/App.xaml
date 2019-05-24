@@ -4,13 +4,21 @@
              x:Class="HomeworkManager.App">
     <Application.Resources>
         <ResourceDictionary>
-            <Color x:Key="TealColor">#7DE0EF</Color>
-            <Color x:Key="CornflowerBlueColor">#B0C4DE</Color>
-            <Color x:Key="SlateGreyColor">#708090</Color>
+            <Color x:Key="BlackishBlueColor">#352D2D</Color> <!--This is for testing! Change to the color below when working with the frontend stuff-->
+            <Color x:Key="FinalBlackishBlueColor">#050305</Color>
+            <Color x:Key="DarkPurpleBlueColor">#120A3D</Color>
+            <Color x:Key="DarkGreenColor">#279922</Color>
+            <Color x:Key="SickGreenColor">#A1DC39</Color>
+            <Color x:Key="LimeGreenColor">#68DA23</Color>
+            <Color x:Key="PurpleColor">#412854</Color>
             <Style x:Key="HomePageButton" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="{StaticResource SlateGreyColor}"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource DarkGreenColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource SickGreenColor}"/>
                 <Setter Property="Margin" Value="20, 10"/>
             </Style>
+            
+            <!-- Front end design notes to go back to later once the actual functionality is in place: Select on the project page is orange on Android! WTF
+                 The tabs are huge and ugly. The menu bar is huge and ugly-->
         </ResourceDictionary>
     </Application.Resources>
 </Application>

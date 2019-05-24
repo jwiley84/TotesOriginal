@@ -1,23 +1,19 @@
 ﻿using HomeworkManager.Models;
 using SQLite;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace HomeworkManager
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class NewProjectPage : ContentPage
-	{
-		public NewProjectPage ()
-		{
-			InitializeComponent ();
-		}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class NewProjectPage : ContentPage
+    {
+        public NewProjectPage()
+        {
+            InitializeComponent();
+        }
 
         private void ToolbarItem_Clicked(object sender, EventArgs e)
         {
@@ -29,20 +25,23 @@ namespace HomeworkManager
                 IsFinished = false
             };
 
-            SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation);
-            conn.CreateTable<Project>();
-            int rows = conn.Insert(project);
-            conn.Close(); //never forget this line!
+            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+            {
+                conn.CreateTable<Project>();
+                int rows = conn.Insert(project);
 
-            if (rows > 0)
-            {
-                DisplayAlert("Success!", "Assignment successfully inserted", "ok");
-                Navigation.PushAsync(new ProjectPage());
+                if (rows > 0)
+                {
+                    DisplayAlert("Success!", "Assignment successfully inserted", "ok");
+                    Navigation.PushAsync(new ProjectPage());
+                }
+                else
+                {
+                    DisplayAlert("Failure", "OOPS! Something went wrong!", "ok");
+                }
             }
-            else
-            {
-                DisplayAlert("Failure", "OOPS! Something went wrong!", "ok");
-            }
+
+
         }
     }
 }

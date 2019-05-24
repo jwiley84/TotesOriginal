@@ -1,14 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HomeworkManager.ProjectPage">
+             x:Class="HomeworkManager.ProjectPage"
+             BackgroundColor="{StaticResource BlackishBlueColor}">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Add"
                      Clicked="AddProjectItem_Clicked"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout>
-            <!--This is for the project list-->
-        </StackLayout>
+        <ListView x:Name="projectListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Title}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </ContentPage.Content>
 </ContentPage>

@@ -948,7 +948,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\v-jewail\\.nuget\\packages\\": {}
+    "C:\\Users\\v-jewail\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -960,9 +961,13 @@
       "outputPath": "C:\\Users\\v-jewail\\source\\repos\\XamarinFrameworkApp\\XamarinFrameworkApp\\XamarinFrameworkApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\v-jewail\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
